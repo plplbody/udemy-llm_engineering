@@ -1,0 +1,21 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "args": [
+        "-ExecutionPolicy",
+        "ByPass",
+        "-NoExit",
+        "-Command",
+        "D:\\dev\\anaconda3\\shell\\condabin\\conda-hook.ps1"
+      ],
+      "icon": "terminal-powershell"
+    }
+  },
+  "[python]": {
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "eeyore.yapf",
+    "editor.formatOnType": false
+  }
+}
